@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background: url("bg1.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(red, green, blue, alpha) ;
+}
+.navbar .logo{
+    width: 140px;
+    height:auto;
+    padding: 20px 100px;
+}
+.navbar ul{
+    float:right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 6px 13px;
+    text-decoration: none;
+    transition: .4s;
+}
+.center{
+    text-align: center;
+    color: white;
+    margin-top: 12%;
+    font-size: x-large;
+}
+.navbar ul li a:active,
+.navbar ul li a:hover{
+    background: red;
+    border-radius: 2px;
+}
+
+.
